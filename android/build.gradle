@@ -25,10 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace = "xyz.cyrilcolinet.privacy_screen_plus"
-    }
-
+    namespace = "xyz.cyrilcolinet.privacy_screen_plus"
     compileSdk = 34
 
     compileOptions {
@@ -65,4 +62,9 @@ android {
             }
         }
     }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.lifecycle:lifecycle-process:2.5.1'
 }
