@@ -1,10 +1,12 @@
 name: privacy_screen_plus
-description: "A new Flutter plugin project."
-version: 0.0.1
-homepage:
+description: "A plugin for hiding sensitive data when app is in app switcher and in background."
+version: 1.0.2
+homepage: https://cyrilcolinet.xyz
+repository: https://github.com/cyrilcolinet/privacy_screen_plus
+issue_tracker: https://github.com/cyrilcolinet/privacy_screen_plus/issues
 
 environment:
-  sdk: ^3.5.2
+  sdk: ">=3.4.0 <4.0.0"
   flutter: '>=3.3.0'
 
 dependencies:

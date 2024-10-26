@@ -4,14 +4,15 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'privacy_screen_plus'
-  s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.version          = '1.0.0'
+  s.summary          = 'A plugin for hiding sensitive data when app is in app switcher and in background.'
   s.description      = <<-DESC
-A new Flutter plugin project.
+A plugin for hiding sensitive data when app is in app switcher and in background.
+It also provides automatic lock triggers with native lifeCycle listeners.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://cyrilcolinet.xyz'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Cyril COLINET' => 'cyrilcolinet.pro@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

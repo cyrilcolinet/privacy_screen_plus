@@ -1,8 +1,5 @@
+library privacy_screen_plus;
 
-import 'privacy_screen_plus_platform_interface.dart';
-
-class PrivacyScreenPlus {
-  Future<String?> getPlatformVersion() {
-    return PrivacyScreenPlusPlatform.instance.getPlatformVersion();
-  }
-}
+export './helpers.dart';
+export './privacy_screen_plus.dart';
+export 'ui/privacy_gate.dart';

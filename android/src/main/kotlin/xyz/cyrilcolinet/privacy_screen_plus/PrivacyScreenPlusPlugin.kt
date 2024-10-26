@@ -40,7 +40,7 @@ class PrivacyScreenPlusPlugin: FlutterPlugin, MethodCallHandler, ActivityAware,
     @JvmStatic
     fun registerWith(registrar: PluginRegistry.Registrar) {
       val channel = MethodChannel(registrar.messenger(), "privacy_screen_plus")
-      channel.setMethodCallHandler(PrivacyScreenPlugin())
+      channel.setMethodCallHandler(PrivacyScreenPlusPlugin())
     }
   }
 
