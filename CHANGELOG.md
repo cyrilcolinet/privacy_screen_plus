@@ -13,3 +13,11 @@
 ## 1.0.2 - 26 Oct. 2024
 
 - Fix compilation issue due to refactoring
+
+## 1.0.3 - 26 Oct. 2024
+
+- Fix compilation issue due to refactoring
+
+## 1.0.4 - 26 Oct. 2024
+
+- Fix compilation issue due to refactoring

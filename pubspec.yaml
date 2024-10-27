@@ -1,6 +1,6 @@
 name: privacy_screen_plus
 description: "A plugin for hiding sensitive data when app is in app switcher and in background."
-version: 1.0.2
+version: 1.0.4
 homepage: https://cyrilcolinet.xyz
 repository: https://github.com/cyrilcolinet/privacy_screen_plus
 issue_tracker: https://github.com/cyrilcolinet/privacy_screen_plus/issues

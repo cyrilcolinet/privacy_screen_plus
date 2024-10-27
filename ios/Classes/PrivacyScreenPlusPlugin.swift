@@ -20,15 +20,14 @@ public class PrivacyScreenPlusPlugin: NSObject, FlutterPlugin {
 
     internal let registrar: FlutterPluginRegistrar
 
-    public static func register(with registrar: FlutterPluginRegistrar) {
-        self.registrar = registrar;
-        let channel = FlutterMethodChannel(name: "privacy_screen_plus", binaryMessenger: registrar.messenger())
-        let instance = PrivacyScreenPlusPlugin()
-        
+    init(registrar: FlutterPluginRegistrar) {
+        self.registrar = registrar
+        methodChannel = FlutterMethodChannel(name: "privacy_screen_plus", binaryMessenger: registrar.messenger())
         super.init()
-        registrar.addMethodCallDelegate(instance, channel: channel)
+
+        registrar.addApplicationDelegate(self)
     }
-    
+
     public static func register(with registrar: FlutterPluginRegistrar) {
         let instance = PrivacyScreenPlusPlugin(registrar: registrar)
         registrar.addMethodCallDelegate(instance, channel: instance.methodChannel)
